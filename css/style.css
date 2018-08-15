@@ -41,13 +41,12 @@ span {
 .banner {
   text-align: center;
   padding-bottom: 2em;
-  border-bottom: 10px double;
 }
 
 .banner h3 {
   margin-bottom: 15px;
 }
-  
+
 .contact,
 .newsletter {
   border: none;
@@ -91,11 +90,11 @@ span {
 textarea {
   color: #aaa;
   background-color: #e5dae1;
-  font-weight: 300; 
+  font-weight: 300;
   width: 100%;
   border: none;
   padding: 15px;
-  border-radius: .3em;  
+  border-radius: .3em;
 }
 
 .contact input {
@@ -123,6 +122,10 @@ textarea {
   margin-left: 15px;
 }
 
+.contact fieldset {
+	border: 0;
+}
+
 label {
   display: block;
   margin-bottom: 0.5em;
@@ -148,7 +151,7 @@ select {
 
 .contact input:focus {
   color: #111;
-  background-color: #fff; 
+  background-color: #fff;
   -webkit-transition: margin-right 2s, background-color 3s, color 1s;
   -moz-transition: margin-right 2s, background-color 3s, color 1s;
   -o-transition: margin-right 2s, background-color 3s, color 1s;
@@ -195,14 +198,14 @@ textarea:focus {
   text-align: right;
   clear: both;
   float: left;
-  
+
 }
 
 .contact input,
 .contact select {
   display: inline-block;
   float: right;
-  width: 60%;  
+  width: 60%;
 }
 
 #province {
